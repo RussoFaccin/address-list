@@ -5,7 +5,9 @@
 var app = new Vue({
   el: '#app',
   data: {
-    restaurantes: ['AAA', 'BBB'],
+    restaurantes: [],
+    filteredRestaurantes: [],
+    estados: ['Todos'],
     modal_opened: false,
     API_KEY: 'AIzaSyDFOzA7-cOFg0rhq_cuwv0PFiIGZwaOUqo',
     // Styles
@@ -50,8 +52,14 @@ var app = new Vue({
   },
   template: `
     <div id="lojas-list">
+      <label>
+      Estado:
+      <select v-on:change="onChangeCity">
+      <option v-for="(estado, index) in estados" :value="index">{{estado}}</option>
+    </select>
+      </label>
       <ul :style="styles.storeList">
-        <loja-item v-for="(loja, index) in restaurantes" :loja="loja" :actionSelect="onSelectLoja" />
+        <loja-item v-for="(loja, index) in filteredRestaurantes" :loja="loja" :actionSelect="onSelectLoja" />
       </ul>
       <div v-show="modal_opened" id="modal-map" :style="styles.modalMap">
         <button :style="styles.mapClose" v-on:click="onCloseModal">X</button>
@@ -72,8 +80,36 @@ var app = new Vue({
         map: map
       });
     },
+    onChangeCity(evt) {
+      var queryIndex = evt.target.selectedOptions[0].value
+      var filterQuery = this.estados[queryIndex];
+      this.filtrarCidade(filterQuery);
+    },
+    filtrarCidade(param) {
+      var tmpRestaurantes = null;
+      if (param == this.estados[0]) {
+        tmpRestaurantes = this.restaurantes;
+      } else {
+        tmpRestaurantes = this.restaurantes.filter(item => {
+          if (item.estado == param) {
+            return item;
+          }
+        });
+      }
+      this.filteredRestaurantes = tmpRestaurantes;
+    },
     onCloseModal() {
       this.modal_opened = !this.modal_opened;
+    },
+    montaListaEstados(data) {
+      var tmpEstados = [];
+      data.forEach((item, index) => {
+        if (!tmpEstados.includes(item.estado)) {
+          tmpEstados.push(item.estado);
+        }
+      });
+      tmpEstados.sort();
+      this.estados = this.estados.concat(tmpEstados);
     }
   },
   beforeCreate() {
@@ -83,6 +119,8 @@ var app = new Vue({
           item.thumbUrl = `https://maps.googleapis.com/maps/api/staticmap?center=${item.lat},${item.lng}&zoom=18&scale=1&size=600x300&maptype=roadmap&key=${this.API_KEY}&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C${item.lat},${item.lng}&key=${this.API_KEY}&format=png&visual_refresh=true`;
         });
         this.restaurantes = data.restaurantes;
+        this.filteredRestaurantes = this.restaurantes;
+        this.montaListaEstados(this.restaurantes);
       });
     });
   },
