@@ -1,0 +1,211 @@
+{
+  "restaurantes": [
+    {
+      "estado": "Amazonas",
+      "cidade": "Manaus",
+      "bairro": "Planalto",
+      "endereco": "Rua Bruxelas, 20",
+      "complemento": "cj Campos Eliseos",
+      "lat": "-3.071199",
+      "lng": "-60.047424"
+    },
+    {
+      "estado": "Amazonas",
+      "cidade": "Manaus",
+      "bairro": "Parque 10 Novembro",
+      "endereco": "Avenida Gabriel Correa Pedrosa, 89",
+      "complemento": "",
+      "lat": "-3.086801",
+      "lng": "-60.018708"
+    },
+    {
+      "estado": "Distrito Federal",
+      "cidade": "Brasília",
+      "bairro": "Setor Sudoeste",
+      "endereco": "CLSW, 301",
+      "complemento": "lojas 34 e 38, s/n",
+      "lat": "-15.797185",
+      "lng": "-47.919656"
+    },
+    {
+      "estado": "Goiás",
+      "cidade": "Goiânia",
+      "bairro": "St. Oeste",
+      "endereco": "Rua 7, 830",
+      "complemento": "quadra f6, lote 25 e",
+      "lat": "-19.920440",
+      "lng": "-43.937505"
+    },
+    {
+      "estado": "Mato Grosso do Sul",
+      "cidade": "Campo Grande",
+      "bairro": "Chácara Cachoeira",
+      "endereco": "Av. Afonso Pena, 3665",
+      "complemento": "",
+      "lat": "-20.461180",
+      "lng": "-54.601855"
+    },
+    {
+      "estado": "Minas Gerais",
+      "cidade": "Belo Horizonte",
+      "bairro": "Centro",
+      "endereco": "Av. Afonso Pena, 861",
+      "complemento": "loja, sobre loja e subsolos",
+      "lat": "-19.920440",
+      "lng": "-43.937505"
+    },
+    {
+      "estado": "Minas Gerais",
+      "cidade": "Belo Horizonte",
+      "bairro": "Cidade Nova",
+      "endereco": "Av. Cristiano Machado, 2450",
+      "complemento": "",
+      "lat": "-19.886526",
+      "lng": "-43.929090"
+    },
+    {
+      "estado": "Minas Gerais",
+      "cidade": "Contagem",
+      "bairro": "Cidade Industrial",
+      "endereco": "Av. General David Sarnoff, 5160",
+      "complemento": "",
+      "lat": "-19.946863",
+      "lng": "-44.023526"
+    },
+    {
+      "estado": "Minas Gerais",
+      "cidade": "Belo Horizonte",
+      "bairro": "Centro",
+      "endereco": "Rua Rio de Janeiro, 910",
+      "complemento": "lj.t21",
+      "lat": "-19.922402",
+      "lng": "-43.939625"
+    },
+    {
+      "estado": "Minas Gerais",
+      "cidade": "Belo Horizonte",
+      "bairro": "Venda Nova",
+      "endereco": "Av. Vilarinho, 945",
+      "complemento": "",
+      "lat": "-19.8187519399129",
+      "lng": "-43.95448704917659"
+    },
+    {
+      "estado": "Minas Gerais",
+      "cidade": "Betim",
+      "bairro": "Centro",
+      "endereco": "Av. Amazonas, 991",
+      "complemento": "",
+      "lat": "-19.967854",
+      "lng": "-44.200598"
+    },
+    {
+      "estado": "Minas Gerais",
+      "cidade": "Contagem",
+      "bairro": "Eldorado",
+      "endereco": "Av. João César de Oliveira, 2450",
+      "complemento": "",
+      "lat": "-19.939141",
+      "lng": "-44.045503"
+    },
+    {
+      "estado": "Pará",
+      "cidade": "Belém",
+      "bairro": "Nazaré",
+      "endereco": "Praça Justo Chermont, 12",
+      "complemento": "",
+      "lat": "-1.453128",
+      "lng": "-48.482664"
+    },
+    {
+      "estado": "Pará",
+      "cidade": "Belém",
+      "bairro": "Pedreira",
+      "endereco": "Avenida Pedro Miranda, 240",
+      "complemento": "",
+      "lat": "-1.436367",
+      "lng": "-48.477184"
+    },
+    {
+      "estado": "Pará",
+      "cidade": "Belém",
+      "bairro": "Reduto",
+      "endereco": "Avenida Visconde de Souza Franco, 776",
+      "complemento": "loja 414",
+      "lat": "-1.446125",
+      "lng": "-48.489717"
+    },
+    {
+      "estado": "Pará",
+      "cidade": "Belém",
+      "bairro": "Reduto",
+      "endereco": "BR 316 - km 01, s/n",
+      "complemento": "loja 236 (dentro do Shopping Castanheira)",
+      "lat": "-1.404963",
+      "lng": "-48.434272"
+    },
+    {
+      "estado": "Pará",
+      "cidade": "Belém",
+      "bairro": "Parque Verde",
+      "endereco": "Rodovia dos Trabalhadores, s/n",
+      "complemento": "",
+      "lat": "-1.389506",
+      "lng": "-48.464083"
+    },
+    {
+      "estado": "Pará",
+      "cidade": "Belém",
+      "bairro": "Batista Campos",
+      "endereco": "Travessa Padre Eutiquio, 1078",
+      "complemento": "Shopping Iguatemi 406, 3º piso",
+      "lat": "-1.458198",
+      "lng": "-48.494555"
+    },
+    {
+      "estado": "Paraná",
+      "cidade": "Curitiba",
+      "bairro": "Centro",
+      "endereco": "Rua João Negrão,156",
+      "complemento": "",
+      "lat": "-25.430767",
+      "lng": "-49.266492"
+    },
+    {
+      "estado": "Paraná",
+      "cidade": "Curitiba",
+      "bairro": "Tarumã",
+      "endereco": "Avenida Victor Ferreira do Amaral, 639",
+      "complemento": "",
+      "lat": "-25.427717",
+      "lng": "-49.233478"
+    },
+    {
+      "estado": "Paraná",
+      "cidade": "Curitiba",
+      "bairro": "Tarumã",
+      "endereco": "Avenida Victor Ferreira do Amaral, 639",
+      "complemento": "",
+      "lat": "-25.427717",
+      "lng": "-49.233478"
+    },
+    {
+      "estado": "Paraná",
+      "cidade": "Londrina",
+      "bairro": "Teba Palhano",
+      "endereco": "Rod PR 445 - Celso Garcia Palhano, km 377, 10",
+      "complemento": "Shop Catuai lj 237",
+      "lat": "-23.342202",
+      "lng": "-51.185665"
+    },
+    {
+      "estado": "Paraná",
+      "cidade": "Londrina",
+      "bairro": "Boa Vista",
+      "endereco": "Avenida Santos Dumont, 1503",
+      "complemento": "",
+      "lat": "-23.324831",
+      "lng": "-51.140661"
+    }
+  ]
+}
